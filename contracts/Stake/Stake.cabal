@@ -1,0 +1,48 @@
+cabal-version:      2.4
+name:               Stake
+version:            0.1.0.0
+synopsis:
+    Everyone should have the chance to handle their tokens and their tokenomics, as now they can manage a blog
+
+-- A longer description of the package.
+-- description:
+homepage:           https://github.com/cardano-on-the-road/karma
+
+-- A URL where users can report bugs.
+-- bug-reports:
+license:            Apache-2.0
+license-file:       LICENSE
+author:             Valerio Mellini
+maintainer:         cardano.on.the.road@gmail.com
+
+-- A copyright notice.
+-- copyright:
+category:           smart-contract
+extra-source-files: CHANGELOG.md
+
+library
+    exposed-modules:  MyLib
+
+
+    -- Modules included in this library but not exported.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:    aeson
+                    , base ^>=4.14.1.0
+                    , containers
+                    , data-default
+                    , freer-extras
+                    , playground-common
+                    , plutus-contract
+                    , plutus-ledger
+                    , plutus-ledger-api
+                    , plutus-tx-plugin
+                    , plutus-tx
+                    , plutus-use-cases
+                    , prettyprinter
+                    , text
+    hs-source-dirs:   lib
+    default-language: Haskell2010
+    ghc-options:      -Wall -fobject-code -fno-ignore-interface-pragmas -fno-omit-interface-pragmas -fno-strictness -fno-spec-constr -fno-specialise
