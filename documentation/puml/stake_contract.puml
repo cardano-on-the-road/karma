@@ -1,0 +1,14 @@
+@startuml
+[*] --> Params: Creator\n**Define(amount duration token)**
+Params: Parameterized contract
+Params: Amount (Int)
+Params: Duration (Int)
+Params: Token
+
+Params --> Stake: Subscriber\n**Stake **
+Stake: NFT
+
+Stake --> Params: Subscriber\n**Burn**
+
+Params -->[*]: Creator\nDestroy
+@enduml
