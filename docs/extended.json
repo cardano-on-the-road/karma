@@ -1,0 +1,23 @@
+{
+  "info": {
+        "url_png_icon_64x64": "https://www.makerkarma.org/.png",
+        "url_png_logo": "https://www.makerkarma.org/.png",
+        "location": "Las Palmas de Gran Canaria, Las Palmas, Spain",
+        "social": {
+            "youtube_handle": "",
+            "linkedin_handle": "",
+            "twitter_handle":""
+        },
+        "company": {
+            "name": "MAKERKARMA",
+            "city": "Las Palmas de Gran Canaria",
+            "country": "Spain"
+        },
+        "about": {
+            "me": ""
+        },
+        "my-pool-ids": {
+            "0": ""
+        }
+    }
+}

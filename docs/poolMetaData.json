@@ -1,6 +1,7 @@
 {
-"name": "KARMA",
-"description": "Stake pool related to project KARMA",
+"name": "MAKER KARMA",
+"description": "Stake pool allocated for project KARMA",
 "ticker": "KRM",
-"homepage": "www.makerkarma.org"
+"homepage": "https://www.makerkarma.org",
+"extended": "https://www.makerkarma.org/extended.json"
 }
